@@ -1,0 +1,99 @@
+# ------------------------------------------------------------------------------
+#  1. OS / Editor / IDE Specific
+# ------------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# ------------------------------------------------------------------------------
+#  2. Conda / Virtual Environment Folders
+# ------------------------------------------------------------------------------
+venv/
+env/
+.venv/
+# If your environment folder has a different name, list it here.
+
+# ------------------------------------------------------------------------------
+#  3. Python / Build Artifacts
+# ------------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ------------------------------------------------------------------------------
+#  4. Logs / Temp Files
+# ------------------------------------------------------------------------------
+*.log
+*.tmp
+*.temp
+*.pid
+*.gz
+*.out
+
+# ------------------------------------------------------------------------------
+#  5. Notebooks
+# ------------------------------------------------------------------------------
+.ipynb_checkpoints/
+
+# ------------------------------------------------------------------------------
+#  6. Data Files (Large or Sensitive)
+# ------------------------------------------------------------------------------
+data/
+datasets/
+*.csv
+*.tsv
+*.json
+*.xml
+*.xls*
+*.h5
+*.hdf5
+*.feather
+*.parquet
+*.pkl
+*.sav
+*.model
+*.weights
+
+# Uncomment if your images or other large files should be excluded:
+# images/
+# *.png
+# *.jpg
+# *.jpeg
+# *.gif
+
+# ------------------------------------------------------------------------------
+#  7. Environment Files
+# ------------------------------------------------------------------------------
+# If you don't want to track your environment.yml or requirements.txt
+# (often you do want them in version control so others can replicate),
+# you could ignore them here.
+# environment.yml
+# requirements.txt
+
+# ------------------------------------------------------------------------------
+#  8. Miscellaneous
+# ------------------------------------------------------------------------------
+# Secret or config files (e.g., API keys)
+*.env
+*.secret
+config.yaml
+
+# For coverage tools
+htmlcov/
+.coverage
+coverage.xml
+
+# ------------------------------------------------------------------------------
+#  9. Additional Notes
+# ------------------------------------------------------------------------------
+# - If you have large model files, consider using Git LFS or a cloud storage.
+# - If you track environment.yml or requirements.txt, remove them from ignore.
+# - Always verify you are not accidentally ignoring code or essential files.
